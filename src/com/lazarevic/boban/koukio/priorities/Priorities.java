@@ -25,7 +25,7 @@ public class Priorities {
   }
 
   public List<Student> getStudents(List<String> events) {
-    if (events.isEmpty()) {
+    if (null == events || events.isEmpty()) {
       new ArrayList<>(0);
     }
 
