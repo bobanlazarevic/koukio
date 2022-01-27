@@ -26,7 +26,7 @@ public class Priorities {
 
   public List<Student> getStudents(List<String> events) {
     if (null == events || events.isEmpty()) {
-      new ArrayList<>(0);
+      return new ArrayList<>(0);
     }
 
     queue.clear();
